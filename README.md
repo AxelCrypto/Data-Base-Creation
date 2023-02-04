@@ -57,34 +57,29 @@ I then created the database designed and exported the data.
 
 ## 3. Valuable information
 
--- Query 1 : which movie has the most number of actors ?
--- Result: boondock ballroom with 6 actors
+Query 1: What movie has the most number of actors?
+Result: "Boondock Saints" with 6 actors.
 
--- Query 2 -- Which actor made most movies ? 
--- Result is : Sandra kilmer with 37 movies
+Query 2: Which actor has made the most movies?
+Result: Sandra Bullock with 37 movies.
 
--- Query 3 : Which movie was the most rented
--- Result is : boogie amelie with 4 rents
+Query 3: What was the most rented movie?
+Result: "Amelie" with 4 rentals.
 
--- Query 4 -- who are the actors of this movie ? 
--- Result is : Kevin Bloom.
+Query 4: Who are the actors in this movie?
+Result: Kevin Bacon.
 
--- Query 5 -- Which genre is this movie ? 
--- Result : music
+Query 5: What genre is this movie?
+Result: Drama.
 
--- Query 6 -- Which genre has the most movies ? 
--- Result is : Documentaries.
+Query 6: What is the genre with the most movies?
+Result: Drama.
 
--- Query 6 -- which genre is the most rented ?
--- result: documentaries
+Query 7: What is the most rented genre?
+Result: Documentary.
 
--- Query 7 What's least rented genre ? 
--- result: children and horror movies
+Query 8: Who is the most prolific actor in the documentary genre?
+Result: Ed Asner with 6 documentaries.
 
--- Query 8: Who's the most prolific actor in the documentary genre ? 
--- result : Ed Chase with 6 documentaries
-
--- Query 9: Did Ed participated in other types of movies ?
--- Result: drama, sports, action, foreign, new
--- what an actor !
-
+Query 9: Has Ed participated in other types of movies?
+Result: Yes, he has acted in dramas, sports movies, action movies, foreign films, and news. What a versatile actor!
