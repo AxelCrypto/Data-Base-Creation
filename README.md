@@ -27,9 +27,9 @@ Thanks to it I could visualise the current structure and what was missing to mak
 
 ###  2.1 Actors to Film 
 I used a 'Name + Surname' key, as well as the ones already available to :
-- from category I exported the genre of the movie to film table. 
-- from actors I exported the actor_id to old_HDD
-- from film I exported the film_id to old_ HDD
+- from category I export the genre of the movie to film table. 
+- from actors I export the actor_id to old_HDD
+- from film I export the film_id to old_ HDD
 
 After deleting all unusefull columns I now have old_HDD which serves as a connection btwn Actors and Films. This intermediary was necessary as their can be many actors in one movie or many movies for one actor.  
 The Categories.csv has been deleted after exporting the genre to film.csv. 
