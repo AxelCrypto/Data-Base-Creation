@@ -16,7 +16,6 @@ docs:
 
 
 
-# I. CSV Cleaning
 ## 1. Automated cleaning
 I created a formula which I applied to the 7 csv files which uniformised the data, the caracters, highlight nulls or duplicates. 
 
