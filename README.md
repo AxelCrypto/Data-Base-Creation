@@ -31,25 +31,23 @@ I used a 'Name + Surname' key, as well as the ones already available to :
 - from actors, export the actor_id to old_HDD
 - from film, export the film_id to old_ HDD
 
-After deleting all unusefull columns I now have old_HDD which serves as a connection btwn Actors and Films. This intermediary was necessary as their can be many actors in one movie or many movies for one actor.  
+
+I then deleted all unusefull columns as now have old_HDD serves as a connection btwn Actors and Films. This intermediary is necessary as their can be many actors in one movie or many movies for one actor.  
 The Categories.csv has been deleted after exporting the genre to film.csv. 
 
 
-image.png
 
 ###  2.2 Film to Rental
 
 2 facts: 
 - inventory is the link between film and rental. The other columns are unusefull.
-- the link towards rental is not complete as in the table inventory which linkes the inventory_id to the film_id, the inventory_id stops at 1k when it stops at 4.5k in rental's table.
+- the link towards rental is not complete. The table inventory which links the inventory_id to the film_id, its inventory_id stops at 1k when it stops at 4.5k in rental's table.
 
 2 conclusions:
 - There can be many rentals for one movie but only one movie per rental. Therefore we don't need intermediate between rental and intermediary. From the table inventory I exported the film_id to the table rental and removed the inventory table.
-- The only link of rental to the rest was through inventory which was not complete as it stoped at 1k. Therefore, I removed all inventory_id >1k from the rental's table as we could not link those to anything.
+- The only link of rental to the rest was through inventory which is not complete as it stops at 1k. Therefore, I removed all inventory_id >1k from the rental's table as we could not link those to anything.
 
 
-Final result : 
-image.png
 
 I then created the database designed and exported the data.  
 
