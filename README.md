@@ -35,7 +35,6 @@ I used a 'Name + Surname' key, as well as the ones already available to :
 I then deleted all unusefull columns as now have old_HDD serves as a connection btwn Actors and Films. This intermediary is necessary as their can be many actors in one movie or many movies for one actor.  
 The Categories.csv has been deleted after exporting the genre to film.csv. 
 
-![alt text] (Screenshot 2023-02-04 143344.png)
 
 
 
