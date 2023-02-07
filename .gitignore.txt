@@ -2,7 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+<<<<<<< HEAD
 mdp.txt
+=======
+.txt
+.png
+>>>>>>> 2f896718a25c2a69604c4a904cc1b1302b4e1fc8
 
 # C extensions
 *.so
