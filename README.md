@@ -36,7 +36,7 @@ I then deleted all unusefull columns as now have old_HDD serves as a connection 
 The Categories.csv has been deleted after exporting the genre to film.csv. 
 
 Result: 
-![1](https://github.com/AxelCrypto/Data-Base-Creation/images/1.jpg)
+![1](https://github.com/AxelCrypto/Data-Base-Creation/images/1.png)
 
 
 
@@ -56,7 +56,7 @@ I then created the database designed and exported the data.
 
 Final result:
 Result: 
-![2](https://github.com/AxelCrypto/Data-Base-Creation/images/2.jpg)
+![2](https://github.com/AxelCrypto/Data-Base-Creation/images/2.png)
 
 
 ## 3. Valuable information 🎬
