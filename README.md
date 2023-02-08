@@ -11,12 +11,11 @@ Objective : build a database from several csv files and extract valuable informa
 docs:
     - CSV cleaning : data cleaning in Python
     - formulas : Python formulas used to clean data
-    - EER SQL : database structure using EER in My SQL
-    - Queries : Queries performed in My SQL
+    - SQL requests : EER and Queries performed in My SQL 
 
 
 
-## 1. Automated cleaningm 🧹
+## 1. Automated cleaning 🧹
 I created a formula which I applied to the 7 csv files which uniformised the data, the caracters, highlight nulls or duplicates. 
 
 
@@ -36,6 +35,8 @@ I then deleted all unusefull columns as now have old_HDD serves as a connection 
 The Categories.csv has been deleted after exporting the genre to film.csv. 
 
 Result: 
+
+
 ![1](https://github.com/AxelCrypto/Data-Base-Creation/blob/main/images/1.png)
 
 
@@ -55,11 +56,12 @@ Result:
 I then created the database designed and exported the data.  
 
 Final result:
-Result: 
+
+
 ![2](https://github.com/AxelCrypto/Data-Base-Creation/blob/main/images/2.png)
 
 
-## 3. Valuable information 🎬
+## 3. Data extraction 🎬
 
 Query 1: What movie has the most number of actors?
 Result: "Boondock Saints" with 6 actors.
