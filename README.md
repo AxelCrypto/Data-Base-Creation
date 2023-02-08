@@ -1,4 +1,4 @@
-# Data-Base-Creation
+# Data-Base-Creation 📋
 
 Objective : build a database from several csv files and extract valuable informations.
 
@@ -16,7 +16,7 @@ docs:
 
 
 
-## 1. Automated cleaning
+## 1. Automated cleaningm 🧹
 I created a formula which I applied to the 7 csv files which uniformised the data, the caracters, highlight nulls or duplicates. 
 
 
@@ -35,7 +35,8 @@ I used a 'Name + Surname' key, as well as the ones already available to :
 I then deleted all unusefull columns as now have old_HDD serves as a connection btwn Actors and Films. This intermediary is necessary as their can be many actors in one movie or many movies for one actor.  
 The Categories.csv has been deleted after exporting the genre to film.csv. 
 
-
+Result: 
+![1](https://github.com/AxelCrypto/Data-Base-Creation/images/1.jpg)
 
 
 
@@ -53,8 +54,12 @@ The Categories.csv has been deleted after exporting the genre to film.csv.
 
 I then created the database designed and exported the data.  
 
+Final result:
+Result: 
+![2](https://github.com/AxelCrypto/Data-Base-Creation/images/2.jpg)
 
-## 3. Valuable information
+
+## 3. Valuable information 🎬
 
 Query 1: What movie has the most number of actors?
 Result: "Boondock Saints" with 6 actors.
